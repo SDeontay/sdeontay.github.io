@@ -1,7 +1,13 @@
 #major_mw {
   width:50%;
+  display:block;
+  margin:auto;
 }
 #logos_years {
   width:100%;
   height:100%;
+}
+#dc_cl {
+  display:block;
+  margin:auto;
 }
