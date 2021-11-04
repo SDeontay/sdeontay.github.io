@@ -1,121 +1,51 @@
-*{
-  margin: 0;
-}
-
-body {
-  background-color: gold;
-  margin:0;
-}
-
-
-
-header {
+@charset "UTF-8";
+/* CSS Document*/
+body{
   background-color: white;
-  height:80px;
-  text-align: center;
+  margin:0px;
+  padding:0px;
 }
 
-header h1 {
-  padding: 30px;
-}
-nav {
-  background-color: gold;
-  text-align: center;
+ul{
+  list-style:none;
 }
 
-Main {
-  background-color: white;
-  padding:30px;
-
-}
-
-article {
-background-color: gold;
-width: 80%;
-margin: 5px auto;
-border-radius: 10px;
-border: 5px solid gold;
-font-family:"roboto",sans-serif;
-
-}
-
-footer {
-background-color: white;
-color: black;
-padding: 30px;
-
-}
-
-/*Navbar*/
-.navbar {
-  list-style-type: none;
-
-}
-
-.navbar a{
-  color:black;
+a{
   text-decoration: none;
 }
-.navbar a:hover {
-  color:gold;
-}
-.navbar li {
-  display:inline-block;
-  padding: 20px 50px;
-}
-/* Artcile Divs */
 
-.article_header {
-text-align: center;
-font-family:"lora", serif;
+section{
+  width:100%;
+  height:95vh;
 }
 
-.article_content {
-background-color: gold;
-padding: 10px;
-text-align: center;
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:60px;
+  background-color: white;
+  box-shadow: 2px 2px 12px lightgrey;
+  padding:0px 5%;
 }
 
-.article_background{
-  background-image: url('../assets/money.jpg');
-  background-size: cover;
+nav ul{
+  display: flex;
 }
 
-.article__footer{
-
-}
-.logo{
-  width:5%;
-  padding: inherit;
-  margin: 10px auto;
-  margin-top: 10px;
-  display: block;
-}
-.golds{
-  width: 80%;
-  margin: auto;
-  margin-top: 10px;
-  display: block;
-}
-.whoodie{
-  width:80%;
-  margin: auto;
-  margin-top: 10px;
-  display: block;
-}
-.vcity{
-  width: 90%;
-  margin: auto;
-  margin-top: 10px;
-  display: block;
-}
-.bolden{
+nav ul li a{
+  margin:30px;
+  font-family: Athelas;serif
+  color: black;
+  font-size: 15px;
   font-weight: bold;
 }
-.italic{
- font-style: italic;
+
+.logo{
+  width:200px;
+  padding:0px -5%;
 }
 
-#small_text{
-  font-size: 10pt;
+.cold{
+  
 }
