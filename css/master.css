@@ -1,12 +1,16 @@
 /* CSS Document*/
 body{
-  background-color: white;
-  margin:0px;
-  padding:0px;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul{
-  list-style:none;
+  list-style: none;
+}
+
+a:hover{
+  color:gold;
 }
 
 a{
@@ -14,42 +18,59 @@ a{
 }
 
 section{
-  width:100%;
-  height:95vh;
 }
 
+
 nav{
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  height:60px;
+  height: 70px;
   background-color: white;
-  box-shadow: 2px 2px 12px lightgrey;
-  padding:0px 5%;
+  padding: 0px 5%;
 }
 
 nav ul{
-  display: flex;
+  display:flex;
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
 nav ul li a{
   margin:30px;
-  font-family: Athelas;serif
+  font-family: 'Athelas',serif;
   color: black;
   font-size: 20px;
   font-weight: bold;
 }
 
-.media-content{
-  
+footer {
+  background-color:white;
+  clear:both;
+  height:100px;
+  padding:0px 5%;
+  color:black;
+  font-family: 'Athelas',serif;
+}
+
+.grid-container img{
+  display:grid;
+  grid-column: 30%;
+  width: 10%
+
 }
 
 
-.logo{
-  width:200px;
-  padding:0px -5%;
+
+
+
+.footer_left {
+width:40%;
+  float:left;
 }
 
-.macair{
-
+.footer_right {
+width:50%;
+  float:right;
 }
