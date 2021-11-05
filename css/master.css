@@ -58,9 +58,11 @@ footer {
   display:grid;
   grid-column: 30%;
   width: 10%
-
 }
 
+.menu{
+  height: 95vh;
+}
 
 
 
