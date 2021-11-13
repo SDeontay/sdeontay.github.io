@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    
+    <link rel="stylesheet" href="./css/master.css">
     <meta charset="utf-8">
-    <title></title>
+    <title>LH Website</title>
   </head>
   <body>
+    <section>
 
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-        <h2 class="w3-wide w3-center">CONTACT</h2>
-        <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-        <div class="w3-row w3-padding-32">
-          <div class="w3-col m6 w3-large w3-margin-bottom">
-            <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-            <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-            <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="meet.html">Meet Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+      </section>
+
+      <footer>
+        <div class="footer_left">
+          <p>&copy; 2021 Lonely Hustle. All Rights Reserved</p>
           </div>
-          <div class="w3-col m6">
-            <form action="/action_page.php" target="_blank">
-              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                <div class="w3-half">
-                  <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                </div>
-                <div class="w3-half">
-                  <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                </div>
-              </div>
-              <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-              <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-            </form>
+          <div class="footer_right">
+            <p> More Than A Brand, It's A LIFESTYLE
+            </p>
           </div>
-        </div>
-      </div>
 
 
 
 
 
+      </footer>
 
   </body>
 </html>
