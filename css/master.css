@@ -133,7 +133,7 @@ header .logo
 }
 .menu ul li a:hover
 {
-  color: #03a9f4;
+  color:gold;
 }
 
 @media (max-width: 991px)
