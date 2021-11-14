@@ -19,7 +19,7 @@ header
 }
 header .logo
 {
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -56,21 +56,21 @@ header .logo
   transition: 0.5s;
   z-index: 2;
 }
-.opener.active
-{
-  right: 300px;
-}
 
-.opener video
-{
+.opener img{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.8;
 }
+.opener.active
+{
+  right: 300px;
+}
+
+
 .overlay
 {
   position: absolute;
