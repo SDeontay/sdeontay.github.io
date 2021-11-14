@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="./css/master2.css">
+    <link rel="stylesheet" href="./css/work.css">
     <meta charset="utf-8">
-    <title>LH Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonely Hustle</title>
   </head>
   <body>
     <section>
+      <section class="opener">
+          <header>
+            <div class="toggle"></div>
+          </header>
 
-      <nav>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="meet.html">Meet Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+            <div class="overlay"></div>
+
+
+
+          <ul class="social">
+            <li><img src="./assets/facebook.png" alt="facebook logo"></li>
+            <li><img src="./assets/instragram.png" alt="instragram logo"></li>
+            <li><img src="./assets/twitter.png" alt="twitter logo"></li>
+          </ul>
+      </section>
+
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
-
-      <div class="grid-container">
-        <img src="./assets/b_beast.jpg" alt="artwork Beauty and The Beast">
-        <img src="./assets/mac-air-bcgk.jpg" alt="Mac Air Logo">
-        <img src="./assets/ice_logo.jpg" alt="Frost Ice Cream Logo">
-        <img src="./assets/movie_poster.jpg" alt="Movie Poster 1">
-        <img src="./assets/skyhigh_girl.jpg" alt="Artwork 1">
-        <img src="./assets/joynerl.jpg" alt="Cartoon Joyner">
-        <img src="./assets/Wall_logo.jpg" alt="Wall Logo">
-        <img src="./assets/coverart_3.jpg" alt="Coverart 3">
-        <img src="./assets/art_1.JPG" alt="art 1">
-        <img src="./assets/dutchs_3.jpg" alt="dutchs 3">
-        <img src="./assets/dutchs_1.jpg" alt="dutchs 1">
-        <img src="./assets/vibe.jpg" alt="vibe mag">
       </div>
 
+      <script>
+      const menuToggle = document.querySelector('.toggle');
+        const opener = document.querySelector('.opener');
 
-    </section>
-
-
-
-    <footer>
-      <div class="footer_left">
-        <p>&copy; 2021 Lonely Hustle. All Rights Reserved</p>
-        </div>
-        <div class="footer_right">
-          <p> More Than A Brand, It's A LIFESTYLE
-          </p>
-        </div>
-  </footer>
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          opener.classList.toggle('active');
+        })
+        </script>
   </body>
 </html>
