@@ -17,7 +17,7 @@
 
           <div class="overlay"></div>
 
-    
+
 
         <ul class="social">
           <li><img src="./assets/facebook.png" alt="facebook logo"></li>
@@ -33,5 +33,16 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
+
+    <script>
+    const menuToggle = document.querySelector('.toggle');
+      const opener = document.querySelector('.opener');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        opener.classList.toggle('active');
+      })
+    })
+
   </body>
 </html>
