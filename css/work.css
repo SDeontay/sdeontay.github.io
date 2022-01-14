@@ -57,18 +57,20 @@ header .logo
   z-index: 2;
 }
 
-.opener img{
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 .opener.active
 {
   right: 300px;
 }
 
+.opener img
+{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
 
 .overlay
 {
